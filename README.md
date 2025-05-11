@@ -10,6 +10,7 @@ This project automates the early diagnosis of Diabetes, Cardiac disease, and vis
 * **Benefit**: Efficient, scalable, user-friendly preventive healthcare.
 
 <br>
+
 ## Table of Contents
 - [Project Structure](#project-structure)
 - [Dataset](#dataset)
@@ -17,6 +18,7 @@ This project automates the early diagnosis of Diabetes, Cardiac disease, and vis
 - [Usage](#usage)
 - [Model Architecture](#model-architecture)
 - [Results](#results)
+
 <br>
 ## Project Structure
 ```&emsp; Automated_Retinal_Imaging/<br>
