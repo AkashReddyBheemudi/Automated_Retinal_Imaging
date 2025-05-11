@@ -93,7 +93,7 @@ loaded_model = load_trained_model(MODEL_WEIGHTS_PATH)
 # Replace with your actual API key obtained from Google AI Studio or Google Cloud
 # WARNING: Storing API keys directly in code is NOT recommended for production environments.
 # Use environment variables (e.g., os.environ.get('GEMINI_API_KEY')) or a secrets management system.
-GEMINI_API_KEY = "AIzaSyCOR-Y14uiPPNWapMyelZ9oO4xmP55YWdU" # <-- Your specific key found to be working
+GEMINI_API_KEY = "Specific-GEMINI_Key" # <-- Your specific key found to be working
 
 gemini_model = None
 chat_session = None # Initialize chat_session as None globally
