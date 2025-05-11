@@ -80,10 +80,8 @@ This dataset contains images categorized into different stages of Diabetic Retin
     This will likely start a web server.
 
 ### Model Architecture
---***Image to be pasted***
-<img src="https://github.com/user-attachments/assets/9914b11f-780d-46cb-9b81-4b3744e077a4" width="250" height="250" alt="Architecture Diagram">
-<br>
-*Fig. X: Architecture Diagram*
+
+<img src="https://github.com/user-attachments/assets/9914b11f-780d-46cb-9b81-4b3744e077a4" width="75%" height="75%" alt="Architecture Diagram" title="Architecture Diagram">
 
 Our system employs a Convolutional Neural Network (CNN), specifically DenseNet121, for automated retinal image analysis to predict diabetes, cardiac disease, and vision impairment.
 1. Input and Preprocessing: Retinal images undergo resizing, normalization, and augmentation (rotation, flipping, zoom) before being split into training and testing sets.
