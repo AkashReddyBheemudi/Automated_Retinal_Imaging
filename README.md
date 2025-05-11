@@ -9,7 +9,7 @@ This project automates the early diagnosis of Diabetes, Cardiac disease, and vis
 * **Accuracy**: 90%.
 * **Benefit**: Efficient, scalable, user-friendly preventive healthcare.
 
-
+<br>
 ## Table of Contents
 - [Project Structure](#project-structure)
 - [Dataset](#dataset)
@@ -17,7 +17,7 @@ This project automates the early diagnosis of Diabetes, Cardiac disease, and vis
 - [Usage](#usage)
 - [Model Architecture](#model-architecture)
 - [Results](#results)
-
+<br>
 ## Project Structure
 ```&emsp; Automated_Retinal_Imaging/<br>
 ├── gaussian_filtered_images/
@@ -47,7 +47,7 @@ This project automates the early diagnosis of Diabetes, Cardiac disease, and vis
 - `train_model.py`: Script for training the CNN model.
 - `train.csv`: CSV file containing training data labels and information.
 
-
+<br>
 ## Dataset
 The original retinal images used in this project are sourced from the APTOS 2019 Blindness Detection dataset available on Kaggle:
 [https://www.kaggle.com/datasets/mariaherrerot/aptos2019](https://www.kaggle.com/datasets/mariaherrerot/aptos2019)
@@ -56,7 +56,7 @@ This dataset contains images categorized into different stages of Diabetic Retin
 
 **Important:** Due to the large size of the image datasets, they are not included in this repository. Please download the dataset from the provided Kaggle link and place the image folders and `export.pkl` file inside the `gaussian_filtered_images` directory as described in `gaussian_filtered_images/dataset.txt`. The `train.csv` file, located in the root directory, contains the training labels.
 
-
+<br>
 
 ## Installation
 1.  Clone the repository:
@@ -73,7 +73,7 @@ This dataset contains images categorized into different stages of Diabetic Retin
 4.  Download and place the dataset:
     Follow the instructions in `gaussian_filtered_images/dataset.txt` to download the APTOS 2019 dataset from Kaggle and place the image folders and `export.pkl` file in the `gaussian_filtered_images` directory.
 
-
+<br>
 
 ## Usage
 1.  Train the CNN model:
@@ -86,7 +86,7 @@ This dataset contains images categorized into different stages of Diabetic Retin
     ```
     This will likely start a web server.
 
-
+<br>
 
 ## Model Architecture
 
@@ -101,7 +101,7 @@ Our system employs a Convolutional Neural Network (CNN), specifically DenseNet12
 3. Classification: The extracted features are fed into fully connected layers with a Softmax output layer, generating probabilities for each diagnostic category (e.g., stages of DR, cardiac conditions, vision impairment types).
 4. Output and Evaluation: The model predicts the presence and type/stage of diseases. Performance is evaluated using metrics like BLEU scores on test dataset images.
 
-
+<br>
 
 ## Result
 The CNN-LSTM model achieves a 90% accuracy in classifying retinal images and generates descriptive summaries of retinal conditions. For example, the system can identify and describe features like microaneurysms and haemorrhages. 
