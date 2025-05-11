@@ -120,7 +120,7 @@ The CNN-LSTM model achieves a 90% accuracy in classifying retinal images and gen
 </p>
 
 
-The accuracy of the generated descriptions is evaluated using BLEU scores. The model was trained for 50 epochs with the Adam optimizer. 
+The accuracy of the generated descriptions is evaluated using BLEU scores. The model was trained for 50 epochs with the Adam optimizer. <br>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2bd91962-c8f7-4761-9118-72cbf86f1684" width="40%" height="40%"/>
 <br><i>Fig. 6: BLEU Scores</i><br>
@@ -132,7 +132,5 @@ The accuracy of the generated descriptions is evaluated using BLEU scores. The m
 This combined approach of classification and summarization can aid in more effective and efficient diagnosis.
 
 ---
-<br><br><br>
-&nbsp;
-&nbsp;
+<br><br>
 Author : _Akash Reddy Bheemudi_
