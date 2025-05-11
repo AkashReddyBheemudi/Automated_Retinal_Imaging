@@ -1,8 +1,8 @@
 # Automated Retinal Imaging for Early Diagnosis of Diabetes, Cardiac and Ocular Diseases using CNN.
-### Introduction
+## Introduction
 This project automates the early diagnosis of Diabetes, Cardiac disease, and vision impairment (Ocular) using a hybrid Deep Learning Architecture incorporating Convolutional Neural Networks (CNN) – Long Short-Term Memory (LSTM) with DenseNet121 to analyze retinal scans. It overcomes limitations of manual methods and existing AI by providing precise and comprehensive predictions with 90% accuracy through a user-friendly web interface, enabling efficient and scalable preventive healthcare.
 
-#### Key Points Briefly Covered:
+### Key Points Briefly Covered:
 * **Goal**: Automated early diagnosis (Diabetes, Cardiac, Ocular).
 * **Method**: CNN – LSTM (DenseNet121) analysis of retinal scans.
 * **Advantage**: Improved precision and comprehensiveness over manual/existing AI.
