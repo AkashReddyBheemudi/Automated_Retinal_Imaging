@@ -20,6 +20,7 @@ This project automates the early diagnosis of Diabetes, Cardiac disease, and vis
 - [Results](#results)
 
 <br>
+
 ## Project Structure
 ```&emsp; Automated_Retinal_Imaging/<br>
 ├── gaussian_filtered_images/
@@ -50,6 +51,7 @@ This project automates the early diagnosis of Diabetes, Cardiac disease, and vis
 - `train.csv`: CSV file containing training data labels and information.
 
 <br>
+
 ## Dataset
 The original retinal images used in this project are sourced from the APTOS 2019 Blindness Detection dataset available on Kaggle:
 [https://www.kaggle.com/datasets/mariaherrerot/aptos2019](https://www.kaggle.com/datasets/mariaherrerot/aptos2019)
