@@ -63,14 +63,18 @@ This dataset contains images categorized into different stages of Diabetic Retin
 1.  Clone the repository:
 2.  Install Python dependencies:
     It is recommended to create a virtual environment first.
+    
     ```bash
     python -m venv venv
     source venv/bin/activate  # On macOS/Linux
     venv\Scripts\activate  # On Windows
     pip install -r requirements.txt
     ```
-3.  Download and place the dataset:
+    
+4.  Download and place the dataset:
     Follow the instructions in `gaussian_filtered_images/dataset.txt` to download the APTOS 2019 dataset from Kaggle and place the image folders and `export.pkl` file in the `gaussian_filtered_images` directory.
+
+--- 
 
 ### Usage
 1.  Train the CNN model:
@@ -87,8 +91,11 @@ This dataset contains images categorized into different stages of Diabetic Retin
 
 ### Model Architecture
 
-<center><img src="https://github.com/user-attachments/assets/9914b11f-780d-46cb-9b81-4b3744e077a4" width="50%" height="50%" alt="Architecture Diagram" title="Architecture Diagram"><center><br>
-<center>_Fig: Architecture Diagram_</center>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9914b11f-780d-46cb-9b81-4b3744e077a4" width="50%" height="50%" alt="Architecture Diagram" title="Architecture Diagram"/>
+<br><i>Fig: Architecture Diagram<i>
+</p>
+
 Our system employs a Convolutional Neural Network (CNN), specifically DenseNet121, for automated retinal image analysis to predict diabetes, cardiac disease, and vision impairment.
 1. Input and Preprocessing: Retinal images undergo resizing, normalization, and augmentation (rotation, flipping, zoom) before being split into training and testing sets.
 2. Feature Extraction (DenseNet121 CNN): The pre-processed images are fed into a DenseNet121 architecture, which extracts rich spatial features relevant to disease detection. 
