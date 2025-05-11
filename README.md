@@ -81,7 +81,9 @@ This dataset contains images categorized into different stages of Diabetic Retin
 
 ### Model Architecture
 --***Image to be pasted***
-![Architecture Diagram](https://github.com/user-attachments/assets/9914b11f-780d-46cb-9b81-4b3744e077a4?classes=caption"Architecture Diagram" =250x250)
+<img src="https://github.com/user-attachments/assets/9914b11f-780d-46cb-9b81-4b3744e077a4" width="250" height="250" alt="Architecture Diagram">
+<br>
+*Fig. X: Architecture Diagram*
 
 Our system employs a Convolutional Neural Network (CNN), specifically DenseNet121, for automated retinal image analysis to predict diabetes, cardiac disease, and vision impairment.
 1. Input and Preprocessing: Retinal images undergo resizing, normalization, and augmentation (rotation, flipping, zoom) before being split into training and testing sets.
@@ -92,16 +94,28 @@ Our system employs a Convolutional Neural Network (CNN), specifically DenseNet12
 ### Result
 The CNN-LSTM model achieves a 90% accuracy in classifying retinal images and generates descriptive summaries of retinal conditions. For example, the system can identify and describe features like microaneurysms and haemorrhages. 
 
-![Fig. Initial Interface](https://github.com/user-attachments/assets/1b8a2386-df88-4de1-ac8c-4ed1f288a865?classes=caption "Fig. Initial Interface")
-![Fig. Selecting Test Image](https://github.com/user-attachments/assets/b94fb815-915a-4e77-b6e2-6a18b022cfcd?classes=caption "Fig. Selecting Test Image")
-![Fig. Predicting the Results](https://github.com/user-attachments/assets/15fff6e2-4edb-400d-8ef4-3c36e6826c9b?classes=caption "Fig. Predicting the Results")
-![Fig. AI Generated Summary](https://github.com/user-attachments/assets/b441d83e-8a90-44c2-a498-84c549938f35?classes=caption "Fig. AI Generated Summary")
-![Fig. Chat Bot Demonstration](https://github.com/user-attachments/assets/3e423d2a-105a-4d5b-bb9b-e7977f48e72d?classes=caption "Fig. Chat Bot Demonstration")
+![Fig. Initial Interface](https://github.com/user-attachments/assets/1b8a2386-df88-4de1-ac8c-4ed1f288a865)
+*Fig. 1: Initial Interface*
+
+![Fig. Selecting Test Image](https://github.com/user-attachments/assets/b94fb815-915a-4e77-b6e2-6a18b022cfcd)
+*Fig. 2: Selecting Test Image*
+
+![Fig. Predicting the Results](https://github.com/user-attachments/assets/15fff6e2-4edb-400d-8ef4-3c36e6826c9b)
+*Fig. 3: Predicting the Results*
+
+![Fig. AI Generated Summary](https://github.com/user-attachments/assets/b441d83e-8a90-44c2-a498-84c549938f35)
+*Fig. 4: AI Generated Summary*
+
+![Fig. Chat Bot Demonstration](https://github.com/user-attachments/assets/3e423d2a-105a-4d5b-bb9b-e7977f48e72d)
+*Fig. 5: Chat Bot Demonstration*
 
 
 The accuracy of the generated descriptions is evaluated using BLEU scores. The model was trained for 50 epochs with the Adam optimizer. 
-![Fig. BLEU Scores](https://github.com/user-attachments/assets/2bd91962-c8f7-4761-9118-72cbf86f1684?classes=caption "Fig. BLEU Scores")
-![Fig. Plotting the BLEU Scores](https://github.com/user-attachments/assets/1135f6b4-d30e-4b57-ab6c-71fcc8ba36f9?classes=caption "Fig. Plotting the BLEU Scores")
+![Fig. BLEU Scores](https://github.com/user-attachments/assets/2bd91962-c8f7-4761-9118-72cbf86f1684)
+*Fig. 6: BLEU Scores*
+
+![Fig. Plotting the BLEU Scores](https://github.com/user-attachments/assets/1135f6b4-d30e-4b57-ab6c-71fcc8ba36f9)
+*Fig. 7: Plotting the BLEU Scores*
 
 This combined approach of classification and summarization can aid in more effective and efficient diagnosis.
 
