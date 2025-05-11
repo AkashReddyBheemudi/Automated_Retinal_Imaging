@@ -20,22 +20,22 @@ This project automates the early diagnosis of Diabetes, Cardiac disease, and vis
 - [Results](#results)
 
 ### Project Structure
-&emsp; Automated_Retinal_Imaging/
-&emsp;├── gaussian_filtered_images/
-&emsp;│   └── dataset.txt
-&emsp;├── static/
-&emsp;│   ├── modified/
-&emsp;│   └── original/
-&emsp;│   └── uploads/
-&emsp;│   └── style.css
-&emsp;├── templates/
-&emsp;│   ├── about.html
-&emsp;│   └── index.html
-&emsp;├── app.py
-&emsp;├── README.md
-&emsp;├── requirements.txt
-&emsp;├── train_model.py
-&emsp;└── train.csv
+&emsp; Automated_Retinal_Imaging/<br>
+&emsp;├── gaussian_filtered_images/<br>
+&emsp;│   └── dataset.txt<br>
+&emsp;├── static/<br>
+&emsp;│   ├── modified/<br>
+&emsp;│   └── original/<br>
+&emsp;│   └── uploads/<br>
+&emsp;│   └── style.css<br>
+&emsp;├── templates/<br>
+&emsp;│   ├── about.html<br>
+&emsp;│   └── index.html<br>
+&emsp;├── app.py<br>
+&emsp;├── README.md<br>
+&emsp;├── requirements.txt<br>
+&emsp;├── train_model.py<br>
+&emsp;└── train.csv<br>
 
 - `gaussian_filtered_images/`: Contains Gaussian-filtered retinal images (note: original datasets are to be downloaded from Kaggle as described in `dataset.txt`).
 - `static/`: Contains static files such as CSS (`style.css`) and potentially original or modified images.
@@ -81,7 +81,7 @@ This dataset contains images categorized into different stages of Diabetic Retin
 
 ### Model Architecture
 
-<img src="https://github.com/user-attachments/assets/9914b11f-780d-46cb-9b81-4b3744e077a4" width="75%" height="75%" alt="Architecture Diagram" title="Architecture Diagram">
+<img src="https://github.com/user-attachments/assets/9914b11f-780d-46cb-9b81-4b3744e077a4" width="50%" height="50%" alt="Architecture Diagram" title="Architecture Diagram">
 
 Our system employs a Convolutional Neural Network (CNN), specifically DenseNet121, for automated retinal image analysis to predict diabetes, cardiac disease, and vision impairment.
 1. Input and Preprocessing: Retinal images undergo resizing, normalization, and augmentation (rotation, flipping, zoom) before being split into training and testing sets.
