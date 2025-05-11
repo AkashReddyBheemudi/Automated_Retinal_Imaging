@@ -2,14 +2,14 @@
 ### Introduction
 This project automates the early diagnosis of Diabetes, Cardiac disease, and vision impairment (Ocular) using a hybrid Deep Learning Architecture incorporating Convolutional Neural Networks (CNN) – Long Short-Term Memory (LSTM) with DenseNet121 to analyze retinal scans. It overcomes limitations of manual methods and existing AI by providing precise and comprehensive predictions with 90% accuracy through a user-friendly web interface, enabling efficient and scalable preventive healthcare.
 
-##### Key Points Briefly Covered:
+#### Key Points Briefly Covered:
 * **Goal**: Automated early diagnosis (Diabetes, Cardiac, Ocular).
 * **Method**: CNN – LSTM (DenseNet121) analysis of retinal scans.
 * **Advantage**: Improved precision and comprehensiveness over manual/existing AI.
 * **Accuracy**: 90%.
 * **Benefit**: Efficient, scalable, user-friendly preventive healthcare.
 
-
+---
 
 ### Table of Contents
 - [Project Structure](#project-structure)
@@ -18,7 +18,7 @@ This project automates the early diagnosis of Diabetes, Cardiac disease, and vis
 - [Usage](#usage)
 - [Model Architecture](#model-architecture)
 - [Results](#results)
-
+---
 ### Project Structure
 &emsp; Automated_Retinal_Imaging/<br>
 &emsp;├── gaussian_filtered_images/<br>
@@ -47,6 +47,8 @@ This project automates the early diagnosis of Diabetes, Cardiac disease, and vis
 - `train_model.py`: Script for training the CNN model.
 - `train.csv`: CSV file containing training data labels and information.
 
+---
+
 ### Dataset
 The original retinal images used in this project are sourced from the APTOS 2019 Blindness Detection dataset available on Kaggle:
 [https://www.kaggle.com/datasets/mariaherrerot/aptos2019](https://www.kaggle.com/datasets/mariaherrerot/aptos2019)
@@ -54,6 +56,8 @@ The original retinal images used in this project are sourced from the APTOS 2019
 This dataset contains images categorized into different stages of Diabetic Retinopathy (No_DR, Mild, Moderate, Severe, Proliferate_DR) and an `export.pkl` file.
 
 **Important:** Due to the large size of the image datasets, they are not included in this repository. Please download the dataset from the provided Kaggle link and place the image folders and `export.pkl` file inside the `gaussian_filtered_images` directory as described in `gaussian_filtered_images/dataset.txt`. The `train.csv` file, located in the root directory, contains the training labels.
+
+---
 
 ### Installation
 1.  Clone the repository:
@@ -79,10 +83,12 @@ This dataset contains images categorized into different stages of Diabetic Retin
     ```
     This will likely start a web server.
 
+---
+
 ### Model Architecture
 
-<img src="https://github.com/user-attachments/assets/9914b11f-780d-46cb-9b81-4b3744e077a4" width="50%" height="50%" alt="Architecture Diagram" title="Architecture Diagram">
-
+<center><img src="https://github.com/user-attachments/assets/9914b11f-780d-46cb-9b81-4b3744e077a4" width="50%" height="50%" alt="Architecture Diagram" title="Architecture Diagram"><center><br>
+<center>_Fig: Architecture Diagram_</center>
 Our system employs a Convolutional Neural Network (CNN), specifically DenseNet121, for automated retinal image analysis to predict diabetes, cardiac disease, and vision impairment.
 1. Input and Preprocessing: Retinal images undergo resizing, normalization, and augmentation (rotation, flipping, zoom) before being split into training and testing sets.
 2. Feature Extraction (DenseNet121 CNN): The pre-processed images are fed into a DenseNet121 architecture, which extracts rich spatial features relevant to disease detection. 
