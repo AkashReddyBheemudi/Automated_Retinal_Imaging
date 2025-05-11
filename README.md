@@ -11,7 +11,7 @@ This project automates the early diagnosis of Diabetes, Cardiac disease, and vis
 
 ---
 
-### Table of Contents
+## Table of Contents
 - [Project Structure](#project-structure)
 - [Dataset](#dataset)
 - [Installation](#installation)
@@ -19,7 +19,7 @@ This project automates the early diagnosis of Diabetes, Cardiac disease, and vis
 - [Model Architecture](#model-architecture)
 - [Results](#results)
 ---
-### Project Structure
+## Project Structure
 ```&emsp; Automated_Retinal_Imaging/<br>
 ├── gaussian_filtered_images/
 │   └── dataset.txt
@@ -50,7 +50,7 @@ This project automates the early diagnosis of Diabetes, Cardiac disease, and vis
 
 ---
 
-### Dataset
+## Dataset
 The original retinal images used in this project are sourced from the APTOS 2019 Blindness Detection dataset available on Kaggle:
 [https://www.kaggle.com/datasets/mariaherrerot/aptos2019](https://www.kaggle.com/datasets/mariaherrerot/aptos2019)
 
@@ -60,7 +60,7 @@ This dataset contains images categorized into different stages of Diabetic Retin
 
 ---
 
-### Installation
+## Installation
 1.  Clone the repository:
 2.  Install Python dependencies:
     It is recommended to create a virtual environment first.
@@ -77,7 +77,7 @@ This dataset contains images categorized into different stages of Diabetic Retin
 
 --- 
 
-### Usage
+## Usage
 1.  Train the CNN model:
     ```bash
     python train_model.py
@@ -90,7 +90,7 @@ This dataset contains images categorized into different stages of Diabetic Retin
 
 ---
 
-### Model Architecture
+## Model Architecture
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9914b11f-780d-46cb-9b81-4b3744e077a4" width="45%" height="45%" alt="Architecture Diagram" title="Architecture Diagram"/>
@@ -105,7 +105,7 @@ Our system employs a Convolutional Neural Network (CNN), specifically DenseNet12
 
 --- 
 
-### Result
+## Result
 The CNN-LSTM model achieves a 90% accuracy in classifying retinal images and generates descriptive summaries of retinal conditions. For example, the system can identify and describe features like microaneurysms and haemorrhages. 
 
 <p align="center">
