@@ -21,21 +21,21 @@ This project automates the early diagnosis of Diabetes, Cardiac disease, and vis
 ---
 ### Project Structure
 ```&emsp; Automated_Retinal_Imaging/<br>
-&emsp;├── gaussian_filtered_images/<br>
-&emsp;│   └── dataset.txt<br>
-&emsp;├── static/<br>
-&emsp;│   ├── modified/<br>
-&emsp;│   └── original/<br>
-&emsp;│   └── uploads/<br>
-&emsp;│   └── style.css<br>
-&emsp;├── templates/<br>
-&emsp;│   ├── about.html<br>
-&emsp;│   └── index.html<br>
-&emsp;├── app.py<br>
-&emsp;├── README.md<br>
-&emsp;├── requirements.txt<br>
-&emsp;├── train_model.py<br>
-&emsp;└── train.csv<br>
+├── gaussian_filtered_images/
+│   └── dataset.txt
+├── static/
+│   ├── modified/
+│   └── original/
+│   └── uploads/
+│   └── style.css
+├── templates/
+│   ├── about.html
+│   └── index.html
+├── app.py
+├── README.md
+├── requirements.txt
+├── train_model.py
+└── train.csv
 ```
 
 - `gaussian_filtered_images/`: Contains Gaussian-filtered retinal images (note: original datasets are to be downloaded from Kaggle as described in `dataset.txt`).
@@ -93,7 +93,7 @@ This dataset contains images categorized into different stages of Diabetic Retin
 ### Model Architecture
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9914b11f-780d-46cb-9b81-4b3744e077a4" width="40%" height="40%" alt="Architecture Diagram" title="Architecture Diagram"/>
+  <img src="https://github.com/user-attachments/assets/9914b11f-780d-46cb-9b81-4b3744e077a4" width="45%" height="45%" alt="Architecture Diagram" title="Architecture Diagram"/>
 <br><i>Fig: Architecture Diagram</i>
 </p>
 
@@ -109,29 +109,30 @@ Our system employs a Convolutional Neural Network (CNN), specifically DenseNet12
 The CNN-LSTM model achieves a 90% accuracy in classifying retinal images and generates descriptive summaries of retinal conditions. For example, the system can identify and describe features like microaneurysms and haemorrhages. 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1b8a2386-df88-4de1-ac8c-4ed1f288a865" width="30%" height="30%"/>
-<br><i>Fig. 1: Initial Interface</i><br>
-<img src="https://github.com/user-attachments/assets/b94fb815-915a-4e77-b6e2-6a18b022cfcd" width="30%" height="30%"/>
-<br><i>Fig. 2: Selecting Test Image</i><br>
-<img src="https://github.com/user-attachments/assets/15fff6e2-4edb-400d-8ef4-3c36e6826c9b" width="30%" height="30%"/>
-<br><i>Fig. 3: Predicting the Results</i><br>
-<img src="https://github.com/user-attachments/assets/b441d83e-8a90-44c2-a498-84c549938f35" width="30%" height="30%"/>
-<br><i>Fig. 4: AI Generated Summary</i><br>
-<img src="https://github.com/user-attachments/assets/3e423d2a-105a-4d5b-bb9b-e7977f48e72d" width="30%" height="30%"/>
-<br><i>Fig. 5: Chat Bot Demonstration</i><br>
+  <img src="https://github.com/user-attachments/assets/1b8a2386-df88-4de1-ac8c-4ed1f288a865" width="40%" height="40%"/>
+<br><i>Fig. 1: Initial Interface</i><br><br>
+<img src="https://github.com/user-attachments/assets/b94fb815-915a-4e77-b6e2-6a18b022cfcd" width="40%" height="40%"/>
+<br><i>Fig. 2: Selecting Test Image</i><br><br>
+<img src="https://github.com/user-attachments/assets/15fff6e2-4edb-400d-8ef4-3c36e6826c9b" width="40%" height="40%"/>
+<br><i>Fig. 3: Predicting the Results</i><br><br>
+<img src="https://github.com/user-attachments/assets/b441d83e-8a90-44c2-a498-84c549938f35" width="40%" height="40%"/>
+<br><i>Fig. 4: AI Generated Summary</i><br><br>
+<img src="https://github.com/user-attachments/assets/3e423d2a-105a-4d5b-bb9b-e7977f48e72d" width="40%" height="40%"/>
+<br><i>Fig. 5: Chat Bot Demonstration</i><br><br>
 </p>
 
 
 The accuracy of the generated descriptions is evaluated using BLEU scores. The model was trained for 50 epochs with the Adam optimizer. 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2bd91962-c8f7-4761-9118-72cbf86f1684" width="30%" height="30%"/>
+  <img src="https://github.com/user-attachments/assets/2bd91962-c8f7-4761-9118-72cbf86f1684" width="40%" height="40%"/>
 <br><i>Fig. 6: BLEU Scores</i><br>
-<img src="https://github.com/user-attachments/assets/1135f6b4-d30e-4b57-ab6c-71fcc8ba36f9" width="30%" height="30%"/>
-<br><i>Fig. 7: Plotting the BLEU Scores</i><br>
+    <br>
+<img src="https://github.com/user-attachments/assets/1135f6b4-d30e-4b57-ab6c-71fcc8ba36f9" width="40%" height="40%"/>
+<br><i>Fig. 7: Plotting the BLEU Scores</i><br><br>
 </p>
 
 This combined approach of classification and summarization can aid in more effective and efficient diagnosis.
-
+<br><br><br>
 &nbsp;
 &nbsp;
 Author : _Akash Reddy Bheemudi_
